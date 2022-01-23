@@ -1,0 +1,493 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Full-width input fields */
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+/* Set a style for all buttons
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}*/
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+/* Extra styles for the cancel button */
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+
+/* Center the image and position the close button */
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+
+/* Modal Content/Box */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+    margin-top: 0;
+}
+
+
+/* The Close Button (x) */
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+
+/* The Close Button (x) */
+
+.close1 {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+    color: red;
+    cursor: pointer;
+}
+
+
+/* The Close Button (x) */
+
+.close3 {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close3:hover,
+.close3:focus {
+    color: red;
+    cursor: pointer;
+}
+
+
+/* Add Zoom Animation */
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+
+/*lich _ Ghi de lenh z-index bootstrap can co them !impotant*/
+
+.input-group-append .btn {
+    z-index: 0 !important;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%px;
+    color: #000 !important;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 3px !important;
+    padding-bottom: 3px !important;
+    background-color: white !important;
+}
+
+body {
+    color: #000;
+}
+
+.form-control {
+    color: #000;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.btn1 {
+    display: inline-block;
+    background-color: rgba(22, 42, 224, 0.705);
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    border-color: rgba(0, 0, 0, 0.6);
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 30%);
+    border: 1px solid black;
+}
+
+
+/* Darker background on mouse-over */
+
+.btn1:hover {
+    background-color: blue;
+    color: white;
+}
+
+.btn2 {
+    display: inline-block;
+    background-color: rgba(224, 22, 22, 0.63);
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    border-color: rgba(0, 0, 0, 0.6);
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 30%);
+    border: 1px solid black;
+}
+
+
+/* Darker background on mouse-over */
+
+.btn2:hover {
+    background-color: red;
+    color: white;
+}
+
+.card-header {
+    background-color: #13a73f !important;
+}
+
+.btn-outline-secondary {
+    color: black;
+}
+
+.gj-datepicker-bootstrap [role=right-icon] button {
+    border-color: rgba(0, 0, 0, 0.6);
+}
+
+.btn {
+    background-color: rgb(55, 167, 212);
+}
+
+.btn-outline-success {
+    color: black;
+    border-color: #2011a8;
+}
+
+.btn:hover {
+    background-color: blue !important;
+    color: white !important;
+}
+
+.btn:active {
+    background-color: rgb(238, 255, 0) !important;
+    color: black !important;
+}
+
+.btn3 {
+    display: inline-block;
+    background-color: orange;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    border-color: rgba(0, 0, 0, 0.6);
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 30%);
+    border: 1px solid black;
+}
+
+
+/* Darker background on mouse-over */
+
+.btn3:hover {
+    background-color: orangered;
+    color: white;
+}
+
+#sidebar-container {
+    /*background-color: rgb(96, 140, 233)  !important;*/
+    background-color: #F7941D !important;
+}
+
+.sidebar-separator-title {
+    /*background-color: rgb(96, 140, 233)  !important;*/
+    background-color: #F7941D !important;
+}
+
+.text-muted {
+    color: #3366CC!important;
+}
+
+.bg-dark {
+    /*background-color: #3366CC!important;*/
+    background-color: #fd7e14 !important;
+}
+
+.bg-dark:hover {
+    background-color: orangered !important;
+}
+
+#sidebar-container .list-group a {
+    color: white;
+}
+
+
+/*Chinh size sidebar*/
+
+#sidebar-container .list-group .sidebar-submenu a {
+    height: 45px !important;
+}
+
+.sidebar-submenu {
+    font-size: 0.8rem !important;
+}
+
+body {
+    font-size: 0.8rem !important;
+    line-height: 1.5 !important;
+}
+
+#sidebar-container .list-group a {
+    height: 45px !important;
+}
+
+
+/*kich co btn*/
+
+.btn {
+    font-size: 0.7rem !important;
+}
+
+.gj-datepicker-bootstrap [role=right-icon] button {
+    width: 38px;
+    height: 43px;
+    position: relative;
+    border: 1px solid black;
+}
+
+
+/*Can le*/
+
+.card-body {
+    padding-top: 0rem !important;
+}
+
+.container {
+    padding-top: 0px !important;
+}
+
+.btn5 {
+    display: inline-block;
+    background-color: #33CC33;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    border-color: rgba(0, 0, 0, 0.6);
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 30%);
+    border: 1px solid black;
+}
+
+.btn5:hover {
+    background-color: #00CC00;
+    color: white;
+}
+
+.btn5 {
+    display: inline-block;
+    background-color: #33CC33;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    border-color: rgba(0, 0, 0, 0.6);
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 30%);
+    border: 1px solid black;
+}
+
+.btn5:hover {
+    background-color: #00CC00;
+    color: white;
+}
+
+hr.new5 {
+    border: 2px solid green;
+    border-radius: 5px;
+    margin-top: 40%;
+}
+
+.btn7 {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+.btn7:hover {
+    color: blue;
+}
+
+.btn8 {
+    display: inline-block;
+    background-color: #33CC33;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 14px;
+    font-size: 10px;
+    cursor: pointer;
+    border-color: rgba(0, 0, 0, 0.6);
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 30%);
+    border: 1px solid black;
+}
+
+.btn8:hover {
+    background-color: #00CC00;
+    color: white;
+}
+
+.a1 {
+    color: #de1414 !important;
+}
+
+.btn9 {
+    display: inline-block;
+    background-color: #09a809;
+    border-radius: 5px;
+    color: black;
+    padding: 6px 6px;
+    cursor: pointer;
+    border-color: rgba(0, 0, 0, 0.6);
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 30%);
+    border: 1px solid black;
+}
+
+.btn10 {
+    color: black;
+    width: 100%;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: yellow;
+}
+
+.btn11 {
+    color: black;
+    width: 100%;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: grey;
+}
